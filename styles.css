@@ -17,7 +17,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    background-color: transparent;
+    background-color: white;
     padding: 0px 0px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0.5, 0.5);
 }
@@ -33,6 +33,11 @@ body {
     height: 100px;
     width: 130px;
     position: relative;
+}
+
+.nav-logo img{
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Keeps aspect ratio */
 }
 
 /* Responsive Styles for Mobile */
